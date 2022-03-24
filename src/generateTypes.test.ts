@@ -39,10 +39,12 @@ const fakeExchangeRates2: ExchangeRates = {
   ],
 };
 
-const calculateRateDifference = (
+type CalculateRateDifference = (
   data1: ExchangeRates,
   data2: ExchangeRates
-) => {
+) => number;
+
+const calculateRateDifference: CalculateRateDifference = (data1, data2) => {
   const exchangeRates1 = data1.rates[0].mid;
   const exchangeRates2 = data2.rates[0].mid;
 
