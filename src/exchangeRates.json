@@ -1,0 +1,37 @@
+[
+  {
+    "scope": "https://api.nbp.pl:443",
+    "method": "GET",
+    "path": "/api/exchangerates/rates/a/usd/2022-03-17/?format=json",
+    "body": "",
+    "status": 200,
+    "response": [
+      "1f8b0800000000000403ab562a494cca4955b2527254d2514a2e2d2a4acd4bae047253f273128b141273538b2ab3138fb614676782e4f353404a43835d809ca2c492d46225abe86aa5bc7ca0a081a9b1bea3be9f5380be91819111503e352d2d35b924b32cd505a810a80024ac6b60ac6b680e94cccd4c51b232d133323130ae8dad0500b762f38186000000"
+    ],
+    "rawHeaders": [
+      "Date",
+      "Thu, 24 Mar 2022 12:53:19 GMT",
+      "Cache-Control",
+      "no-cache",
+      "Pragma",
+      "no-cache",
+      "Content-Type",
+      "application/json; charset=utf-8",
+      "Expires",
+      "-1",
+      "ETag",
+      "\"Tz06gjcovRvMm4WZrGTUad2fma0eSb3I9xJMCOeAEhk=\"",
+      "Vary",
+      "Accept-Encoding",
+      "Content-Encoding",
+      "gzip",
+      "Set-Cookie",
+      "ee3la5eizeiY4Eix=Naew5Ohp; path=/",
+      "Connection",
+      "close",
+      "Transfer-Encoding",
+      "chunked"
+    ],
+    "responseIsBinary": false
+  }
+]
